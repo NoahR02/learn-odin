@@ -1,0 +1,58 @@
+.book_wrapper {
+  display: flex;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+:root .table_of_contents, :root .page_wrapper {
+  --table_of_contents_size: 25%;
+}
+
+.table_of_contents {
+  display: inline-block;
+  background-color: #27272f;
+  height: 100vh;
+  max-height: 100vh;
+  width: var(--table_of_contents_size);
+  resize: horizontal;
+  overflow-y: scroll;
+  vertical-align: top;
+  padding: 2em 0 2em 2em;
+}
+
+.table_of_contents * {
+  padding: 0;
+  font-weight: normal;
+}
+
+.table_of_contents a, .table_of_contents span, .table_of_contents span *  {
+  text-decoration: none;
+  color: white;
+}
+
+.table_of_contents a:hover {
+  opacity: 0.4;
+}
+
+.section_list {
+  list-style: none;
+}
+
+.section_list li {
+  margin-top: 1em;
+  margin-left: 2em;
+  font-size: 0.9em;
+}
+
+.page_wrapper {
+  top: 0;
+  left: var(--table_of_contents_size);
+  position: fixed;
+  display: inline-block;
+  width: calc(100% - var(--table_of_contents_size));
+}
+
+.book_wrapper div {
+  padding-left: 2em;
+  padding-right: 2em;
+}
