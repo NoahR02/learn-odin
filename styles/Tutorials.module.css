@@ -1,7 +1,5 @@
 .book_wrapper {
-  display: flex;
-  height: 100vh;
-  overflow-y: scroll;
+  padding-bottom: 2em;
 }
 
 :root .table_of_contents, :root .page_wrapper {
@@ -50,6 +48,8 @@
   position: fixed;
   display: inline-block;
   width: calc(100% - var(--table_of_contents_size));
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .book_wrapper div {
