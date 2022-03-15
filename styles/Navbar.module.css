@@ -34,6 +34,10 @@
   text-decoration: none;
 }
 
+.nav .links_container li:last-child {
+  opacity: 0.4;
+}
+
 @media screen and (max-width: 800px) {
 
   .header {
