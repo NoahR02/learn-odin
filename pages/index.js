@@ -11,7 +11,7 @@ export default function Home() {
         <title>learnodin</title>
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <Navbar isAbs = {true} />
+
       <main className={styles.main_container}>
         <div className={styles.centered_wrapper}>
           <div className={styles.centered}>

@@ -1,16 +1,22 @@
+#page_wrapper {
+  flex: 1;
+  min-height: 0;
+}
+
 .book_wrapper {
   padding-bottom: 2em;
 }
 
-:root .table_of_contents, :root .page_wrapper {
+:root .table_of_contents, :root .book_wrapper {
   --table_of_contents_size: 25%;
 }
 
 .table_of_contents {
+  height: 100%;
   display: inline-block;
   background-color: #27272f;
-  height: 100vh;
-  max-height: 100vh;
+  position: relative;
+
   width: var(--table_of_contents_size);
   resize: horizontal;
   overflow-y: scroll;
@@ -42,17 +48,34 @@
   font-size: 0.9em;
 }
 
-.page_wrapper {
-  top: 0;
+.book_wrapper {
   left: var(--table_of_contents_size);
-  position: fixed;
   display: inline-block;
   width: calc(100% - var(--table_of_contents_size));
-  height: 100vh;
+  height: 100%;
+  max-height: 100%;
   overflow-y: auto;
+  padding: 2em 2em 2em 2em;
+  vertical-align: top;
 }
 
-.book_wrapper div {
-  padding-left: 2em;
-  padding-right: 2em;
+@media(max-width: 800px) {
+
+  .table_of_contents {
+    display: block;
+    height: 30vh;
+    width: 100%;
+  }
+
+  .book_wrapper {
+
+    display: block;
+    width: 100%;
+    position: static;
+    overflow-y: visible;
+    margin: 0;
+
+    padding: 2em 1em 2em 1em;
+  }
+
 }

@@ -6,6 +6,7 @@ import Head from "next/head";
 import styles from "../../styles/Tutorials.module.css";
 import Navbar from "../../components/Navbar";
 import Link from "next/link";
+import {Fragment} from "react";
 
 const hljs = require('highlight.js/lib/common');
 
@@ -89,34 +90,27 @@ export default function TutorialContent(props) {
       <title>learnodin - Tutorial </title>
     </Head>
 
-    <aside className={styles.table_of_contents}>
-      <div> Table Of Contents:</div>
-      {/* Add the chapters html. */}
-      {html}
-    </aside>
+    <div id={styles.page_wrapper}>
+      <aside className={styles.table_of_contents}>
+        <div> Table Of Contents:</div>
+        {/* Add the chapters html. */}
+        {html}
+      </aside>
 
-    <div className={styles.page_wrapper}>
-      <Navbar isAbs={false}/>
-
-      <main className={styles.book_wrapper}>
-        <div>
-          {/* Add the selected tutorial. */}
-          <div dangerouslySetInnerHTML={{
-            __html: marked.parse(props.body,
-              {
-                highlight: function (code, lang) {
-                  const language = hljs.getLanguage(lang) ? lang : 'plaintext';
-                  let x = hljs.highlight(code, {language}).value;
-                  return x;
-                },
-                langPrefix: 'hljs language-', // highlight.js css expects a top-level 'hljs' class.
-              }
-            )
-          }}></div>
-        </div>
+      <main className={styles.book_wrapper} dangerouslySetInnerHTML={{
+        __html: marked.parse(props.body,
+          {
+            highlight: function (code, lang) {
+              const language = hljs.getLanguage(lang) ? lang : 'plaintext';
+              let x = hljs.highlight(code, {language}).value;
+              return x;
+            },
+            langPrefix: 'hljs language-', // highlight.js css expects a top-level 'hljs' class.
+          }
+        )
+      }}>
       </main>
     </div>
-
   </>
 
 }

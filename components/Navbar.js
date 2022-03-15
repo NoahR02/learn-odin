@@ -9,35 +9,60 @@ const NavItem = (props) => {
 
 export default function Navbar(props) {
 
-  const [hamburgerText, setHamburerText] = useState("\u2630");
+  // Hamburger Image
+  const hamburgerImage = (<svg viewBox="0 0 100 80" width="40" height="20">
+    <rect y = "00" width = "100" height = "20"/>
+    <rect y = "30" width = "100" height = "20"/>
+    <rect y = "60" width = "100" height =" 20"/>
+  </svg>);
+
+  // Close Menu Image
+  const CloseMenuImage = (<svg viewBox="0 0 100 80" width="40" height="20">
+    <line x1 = "0" x2 = "100" y1 = "0"  y2 = "80" strokeWidth = "0.25em"/>
+    <line x1 = "0" x2 = "100" y1 = "80" y2 = "0"  strokeWidth = "0.25em"/>
+  </svg>);
+
+  const [hamburger, setHamburgerText] = useState(hamburgerImage);
   const [showNav, setShowNav] = useState(false);
 
-	return (
-	  
-	  <nav id={styles.nav} className={props.isAbs ? styles.nav_abs : styles.nav_rel}>
-	    
-	    <h2 id={styles.nav_title}>learnodin</h2>
+  const handleMenuClick = () => {
 
-      <span id="hamburger" onClick={ () => {
-        if(hamburgerText === "\u2630") {
-          setHamburerText("x");
-          setShowNav(true);
-        } else {
-          setHamburerText("\u2630");
-          setShowNav(false);
-        }
-      }}>
-        {hamburgerText}
+    setShowNav(!showNav)
+
+    if(showNav) {
+      setHamburgerText(hamburgerImage);
+    } else {
+      setHamburgerText(CloseMenuImage);
+    }
+
+  }
+
+  const closeNav = () => {
+    setShowNav(false);
+    setHamburgerText(hamburgerImage);
+  }
+
+  return (
+	  <header className={styles.header}>
+
+      <h2 className={styles.title}>learnodin</h2>
+
+      <span className={styles.hamburger} onClick={() => handleMenuClick()}>
+        {hamburger}
       </span>
 
-      <ul className={showNav ? styles.show : styles.no_show}>
-        <li><NavItem href="/" name="Home"/></li>
-        <li><NavItem href="/tutorials/1.0" name="Tutorials"/></li>
-        <li><NavItem href="/tutorials/0.0" name="Installation"/></li>
-        <li><NavItem href="/" name="Playground"/></li>
-      </ul>
-      
-	  </nav>
+      <nav className={styles.nav + " " + (showNav ? styles.show_nav : "")}>
+
+        <ul className={styles.links_container}>
+          <li onClick={closeNav}><NavItem href="/" name="Home"/></li>
+          <li onClick={closeNav}><NavItem href="/tutorials/1.0" name="Tutorials"/></li>
+          <li onClick={closeNav}><NavItem href="/tutorials/0.0" name="Installation"/></li>
+          <li onClick={closeNav}><NavItem href="/" name="Playground"/></li>
+        </ul>
+
+      </nav>
+
+    </header>
 	
 	)
 }

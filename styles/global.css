@@ -5,6 +5,11 @@ html, body, #__next {
   padding: 0;
 }
 
+#__next {
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   box-sizing: border-box;
 }
