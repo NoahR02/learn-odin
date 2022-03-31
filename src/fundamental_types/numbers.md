@@ -1,11 +1,4 @@
----
-title: "Numbers"
-date: "03/08/2022"
-chapter: 2
-subChapter: 1
----
-
-### Chapter 2.1: Numbers
+# Numbers
 
 Today we will cover the different types of numbers in Odin. We will also be covering the syntax of how to declare a variable.
 

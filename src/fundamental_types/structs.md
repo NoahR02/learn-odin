@@ -1,11 +1,4 @@
----
-title: "Structs"
-date: "03/08/2022"
-chapter: 2
-subChapter: 5
----
-
-### Chapter 2.5: Structs
+# Structs
 ---
 
 Structures hold related data together that we want to perform operations on.

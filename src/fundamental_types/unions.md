@@ -1,11 +1,4 @@
----
-title: "Unions"
-date: "03/08/2022"
-chapter: 2
-subChapter: 9
----
-
-### Chapter 2.9: Unions
+# Unions
 ---
 
 Unions are a type that can hold multiple types.

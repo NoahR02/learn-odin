@@ -1,11 +1,4 @@
----
-title: "Booleans"
-date: "03/08/2022"
-chapter: 2
-subChapter: 3
----
-
-### Chapter 2.3: Booleans
+# Booleans
 ---
 Just like in any other language we have booleans. True or false, you get it.
 

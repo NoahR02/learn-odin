@@ -1,11 +1,4 @@
----
-title: "Enumerations"
-date: "03/08/2022"
-chapter: 2
-subChapter: 8
----
-
-### Chapter 2.8: Enumerations
+# Enumerations
 ---
 
 Enumerations store one value out of a set of possible values. Enums values can range from 1 to 8 bytes.
@@ -29,7 +22,7 @@ Colors :: enum int {
 }
 ```
 
-An instance of Colors can only be 3 values: RED, GREEN, or BLUE. 
+An instance of Colors can only be 3 values: RED, GREEN, or BLUE.
 Colors.RED maps to 0 which is of type integer.
 Colors.GREEN maps to 100 which is of type integer.
 Colors.BLUE maps to 101 which is of type integer.

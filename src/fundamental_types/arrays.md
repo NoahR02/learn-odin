@@ -1,11 +1,4 @@
----
-title: "Arrays"
-date: "03/08/2022"
-chapter: 2
-subChapter: 6
----
-
-### Chapter 2.6: Arrays
+# Arrays
 ---
 
 An Array is a collection of elements where all the elements have the same type.
@@ -20,7 +13,7 @@ Fixed sized arrays are arrays with a fixed length that cannot be changed.
 To make the array above do the following:
 1. To denote that it is an array you put brackets before the type name.
 2. Inside the brackets put the size.
-3. Set the array equal to curly braces, then write the specified values inside. 
+3. Set the array equal to curly braces, then write the specified values inside.
 
 ```shell
 Note: The number of values placed inside the curly braces must be the maximum number of items the array can hold.
@@ -51,9 +44,9 @@ Likewise, we can remove the last element via the builtin pop procedure:
 ```cpp
 pop(&my_array)
 ```
-One last thing we need to do is to delete the dynamic array. Dynamic arrays are stored on the heap. 
+One last thing we need to do is to delete the dynamic array. Dynamic arrays are stored on the heap.
 To be more specific the contents of the array are stored on the heap but by default the pointer to those elements is stored on the stack.
-Dynamic arrays use indirect addressing to store a pointer to the actual content of the array. 
+Dynamic arrays use indirect addressing to store a pointer to the actual content of the array.
 This is done because dynamic arrays can become very large and the dynamic array might resize often.
 
 The heap is an area of memory in RAM that is of a dynamic length that must be managed by the programmer directly.

@@ -1,11 +1,4 @@
----
-title: "Linux"
-date: "03/09/2022"
-chapter: 0
-subChapter: 1
----
-
-### Installing Odin on Linux
+# Installing Odin on Linux
 
 ### Steps
 1. Download and extract the latest [release](https://github.com/odin-lang/Odin/releases/latest) for Linux.

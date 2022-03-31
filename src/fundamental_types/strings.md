@@ -1,11 +1,4 @@
----
-title: "Strings"
-date: "03/08/2022"
-chapter: 2
-subChapter: 2
----
-
-### Chapter 2.2: Strings
+# Strings
 ---
 Strings in Odin are immutable. Strings are UTF-8 encoded, and we place characters inside our strings via the concept of runes.
 

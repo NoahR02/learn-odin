@@ -1,11 +1,4 @@
----
-title: "Writing our Hello World Program"
-date: "03/09/2022"
-chapter: 1
-subChapter: 2
----
-
-### Chapter 1.2: Writing our Hello World Program
+# Writing our Hello World Program
 
 So far your program should look something like this:
 ```cpp

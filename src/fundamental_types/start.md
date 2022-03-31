@@ -1,10 +1,3 @@
----
-title: "Fundamental Types"
-date: "03/08/2022"
-chapter: 2
-subChapter: 0
----
-
-### Chapter 2: Fundamental Types
+# Fundamental Types
 
 In this chapter, I will cover the fundamental types in Odin. Odin's [overview](https://odin-lang.org/docs/overview/#basic-types) already does an amazing job of covering this, so check that out if you are confused.

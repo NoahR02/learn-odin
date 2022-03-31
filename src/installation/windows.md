@@ -1,11 +1,4 @@
----
-title: "Windows"
-date: "03/09/2022"
-chapter: 0
-subChapter: 2
----
-
-### Installing Odin on Windows
+# Installing Odin on Windows
 
 ### Steps
 1. Install [Visual Studio](https://visualstudio.microsoft.com/downloads/)

@@ -1,11 +1,4 @@
----
-title: "Packages"
-date: "03/08/2022"
-chapter: 1
-subChapter: 1
----
-
-### Chapter 1.1: Packages
+# Packages
 Before we start writing code, we have to talk about packages in Odin. A Package is a folder with odin files.
 We will expand on this later when we get to more advance programs.
 

@@ -1,13 +1,6 @@
+# Slices
 ---
-title: "Slices"
-date: "03/08/2022"
-chapter: 2
-subChapter: 7
----
-
-### Chapter 2.7: Slices
----
-Slices are a pointer to a contiguous block of memory with a size. Slices are widely used in Odin code. 
+Slices are a pointer to a contiguous block of memory with a size. Slices are widely used in Odin code.
 
 To declare a slice we do the following:
 ```cpp

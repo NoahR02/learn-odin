@@ -1,17 +1,10 @@
----
-title: "Pointers"
-date: "03/08/2022"
-chapter: 2
-subChapter: 4
----
-
-### Chapter 2.4: Pointers
+# Pointers
 ---
 
 Pointers point to a memory address.
-The syntax to make a pointer is with a carrot head on the left side of the pointer type. 
+The syntax to make a pointer is with a carrot head on the left side of the pointer type.
 To dereference a pointer or access the value at that memory address, we put the carrot head on the right side of the pointer type.
-To get the memory address of something we use the "address of" operator &. 
+To get the memory address of something we use the "address of" operator &.
 
 Below we create a variable called my_value and store 20 inside. We then make an int pointer point to the address of my_value.
 ```cpp
