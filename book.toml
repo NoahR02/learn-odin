@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Odin"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
