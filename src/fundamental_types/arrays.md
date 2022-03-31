@@ -8,7 +8,7 @@ Arrays store their data contiguously in memory.
 ---
 Fixed sized arrays are arrays with a fixed length that cannot be changed.
 
-![](/markdown_images/2.6_0.svg)
+![](/images/fundamental_types/2.6_0.svg)
 
 To make the array above do the following:
 1. To denote that it is an array you put brackets before the type name.

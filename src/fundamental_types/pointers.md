@@ -21,7 +21,7 @@ green: ^int = &blue // int pointer
 ```
 
 ![Two squares. One blue that is located at memory address 0x00. One Green that is located at memory address 0x04. Blue holds the number twenty. Green holds the memory address 0x00.
-](/markdown_images/2.4_0.svg)
+](/images/fundamental_types/2.4_0.svg)
 
 Run the code below and study the relationship between the values.
 ```cpp
