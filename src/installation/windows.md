@@ -6,9 +6,9 @@
 3. Rename the folder to **odin** and cd into it.
 4. Run an example.
 
-```sh
-.\odin.exe run examples\demo
-```
+    ```sh
+    .\odin.exe run examples\demo
+    ```
 
 ### Extra: Add it to your PATH
 1. Open up the Start Menu and search for "Edit the system environment variables".

@@ -29,7 +29,7 @@ Colors.BLUE maps to 101 which is of type integer.
 
 We can now define an instance of Colors.
 ```cpp
-color: Colors = Colors.RED // Or .RED to be more implict.
+color: Colors = Colors.RED // Or .RED to be more implicit.
 ```
 
 Enums can only be compared to enums of the same type. Comparing them with integers is an error.

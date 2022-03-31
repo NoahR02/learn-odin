@@ -6,5 +6,5 @@ src = "src"
 title = "Odin"
 
 [output.html]
-default-theme = "navy"
-preferred-dark-theme = "navy"
+default-theme = "ayu"
+preferred-dark-theme = "ayu"

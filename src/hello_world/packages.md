@@ -7,8 +7,8 @@ Ok enough said! Let's make a package for our *Hello World* program.
 2. Make a file called hello_world.odin.
 3. Inside that file write:
 
-```cpp
-package hello_world
-```
+    ```cpp
+    package hello_world
+    ```
 
 That's it, we now have a package! In the next section we will finish writing our Hello World code in this file.
