@@ -85,10 +85,8 @@ Or if you want to run it from anywhere:
 odin run ../path_to_odin_package/hello_world -out=my_first_program
 ```
 
-```sh
-Note that your executable cannot be the same name as your folder if you are running the command from one level outside the folder.
-```
+> Note: your executable's name cannot be the same as your folder if you are running the command from one level outside the folder.
 
-If you did everything correctly, then your program should print out "Hello World!" to the console! 
+If you did everything correctly, your program should print out "Hello World!" to the console! 
 
 ***Congratulations, you just made your first Odin program!***
