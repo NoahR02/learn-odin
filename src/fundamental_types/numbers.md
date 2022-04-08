@@ -13,7 +13,7 @@ If I'm on a x64 architecture then the size of an int will be 64 bits or 8 bytes.
 
 Odin has architecture independent sized integers such as:
 ```cpp
-i8, i16, i32, i64, and i128
+i8 i16 i32 i64 i128
 ```
 
 The following are the same as above but are just unsigned integers.
@@ -21,7 +21,7 @@ The following are the same as above but are just unsigned integers.
 uint
 ```
 ```cpp
-ui8, u16, u32, u64, and u128
+ui8 u16 u32 u64 u128
 ```
 
 ### Floating Point Numbers
@@ -29,7 +29,7 @@ ui8, u16, u32, u64, and u128
 In Odin we have the following floating point numbers:
 
 ```cpp
-f16, f32, and f64
+f16 f32 f64
 ```
 
 ### Endian Specific Integers and Floating Point Numbers
@@ -40,19 +40,19 @@ An interesting addition in Odin is the endian specific integers and floating poi
 // le = Little Endian
 // be = Big Endian
 
-i16le, i32le, i64le, and i128le
-u16le, u32le, u64le, and u128le
+i16le i32le i64le i128le
+u16le u32le u64le u128le
 
-i16be, i32be, i64be, and i128be
-u16be, u32be, u64be, and u128be
+i16be i32be i64be i128be
+u16be u32be u64be u128be
 ```
 
 ```cpp
 // le = Little Endian
 // be = Big Endian
 
-f16le, f32le, and f64le
-f16be, f32be, and f64be
+f16le f32le f64le
+f16be f32be f64be
 ```
 ### Complex Numbers
 ---

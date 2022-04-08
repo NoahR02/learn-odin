@@ -2,7 +2,7 @@
 <img src="https://github.com/odin-lang/Odin/blob/master/misc/logo-slim.png?raw=true"
 alt="" style="display: block; margin-left: auto; margin-right: auto; "/>
 
-*<p style="text-align: center;">Odin is a general purpose programming language that is written for modern systems.</p>*
+*<p style="text-align: center;">Odin is a general purpose programming language for modern systems.</p>*
 
 ...more content coming soon.
 
