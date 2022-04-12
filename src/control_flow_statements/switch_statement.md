@@ -8,7 +8,7 @@ This behavior is different from the if statement because the if statement execut
 > Note: One major advantage of using switch statements is readability. 
 
 Starting a switch statement involves writing switch then the value we want to evaluate. 
-Next we create a [block scope](https://en.wikipedia.org/wiki/Scope_(computer_science)).
+Next, we create a [block scope](https://en.wikipedia.org/wiki/Scope_(computer_science)).
 ```cpp
 grade := 'A'
 
@@ -37,8 +37,8 @@ switch grade {
 }
 ```
 
-Unlike most programming languages Odin *breaks* by default. 
-If it matches a value then the other cases will not be considered.
+Unlike most programming languages Odin, *breaks* by default. 
+If it matches a value, then the other cases will not be considered.
 We can override the default behavior with *fallthrough*. Fallthrough *has* to be the last piece of code.
 
 ```cpp
@@ -60,7 +60,7 @@ We can also use the break keyword to *break* from a case instead of falling thro
 
 ## Partial Switch Statements for Enums and Unions
 Partial switch statements cover a partial amount of cases. 
-When we use a switch statement on an enum value we must make a case for every possible enum value.
+When we use a switch statement on an enum value, we must make a case for every possible enum value.
 Partial switch statements let us get around that.
 
 ```cpp

@@ -1,10 +1,10 @@
 # For Statement
 
-The for statement also called the for loop is useful for executing some block of code a specified amount of times based upon some condition.
+The for statement, also called the for loop is, useful for executing some block of code a specified amount of times based upon some condition.
 
 A basic for loop has 2 statements and one conditional which are separated by semicolons:
 - The initial statement: This is executed before the first iteration.
-- The conditional: This is checked before every iteration. If the condition is false then the code in the for loop will stop executing.
+- The conditional: This is checked before every iteration. If the condition is false, then the code in the for loop will stop executing.
 - The final statement: This is executed at the end of every iteration
 
 The initial and final statements are optional. 
@@ -20,7 +20,7 @@ for i := 0; i < 5; i += 1 {
 }
 ```
 
-If we want to iterate over a block of code until some condition is met then we can do the following:
+If we want to iterate over a block of code until some condition is met, then we can do the following:
 > Note: This is also called a while loop in other programming languages.
 ```cpp
 i := 0
