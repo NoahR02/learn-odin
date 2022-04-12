@@ -10,7 +10,7 @@ if grade == 'A' {
 }
 ```
 
-If the *if statement* above evaluates to false then we can execute some block of code with the *else statement*:
+If the *if statement* above evaluates to false, then we can execute some block of code with the *else statement*:
 ```cpp
 if grade == 'A' {
   fmt.println("Amazing job!")
@@ -37,4 +37,4 @@ if grade := 'A'; grade == 'A' {
   fmt.println("Amazing job!")
 }
 ```
-The variable declared inside the initial statement can be accessed in any of the chained if else or else statements.
+The variable declared inside the initial statement can be accessed in any of the chained, if else or else statements.

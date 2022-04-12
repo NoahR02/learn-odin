@@ -8,11 +8,12 @@ When and if statements are very similar, but they have some differences.
 - When statements do not create a new scope!
 - When statements are evaluated at compile time.
 
-Since I'm on linux the code below ultimately compiles down to ```fmt.println("Linux!")```!
+Since I'm on Linux, the code below ultimately compiles down to ```fmt.println("Linux!")```!
 ```cpp
 package main
 
 import "core:fmt"
+
 main :: proc() {
     when ODIN_OS == .Windows {
         fmt.println("Windows!")
@@ -25,12 +26,13 @@ main :: proc() {
 ```
 
 We can now create operating system specific variables!
-Since I'm on Linux I am able to print out the `my_linux_only_variable` variable.
+Since I'm on Linux, I am able to print out the `my_linux_only_variable` variable.
 > Note: I cannot access the my_windows_only_variable variable because I am on Linux.
 > The variable does not exist at compile time!
 
 ```cpp
 package main
+
 import "core:fmt"
 
 when ODIN_OS == .Windows {

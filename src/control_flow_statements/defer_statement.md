@@ -2,7 +2,7 @@
 
 Defer statements defer the execution of code to the end of the scope.
 Defer statements are stacked on top of each other, meaning that if you have two defer statements then the second defer statement will be called first at the end of the scope.
-You can think of this as *LIFO*(last in first out).
+You can think of this as *LIFO* (last in first out).
 
 ```cpp
 package main
@@ -30,7 +30,7 @@ This prints out:
 > Note: Notice how we can defer a block of code.
 
 ### Why use defer statements?
-If you have never seen defer statements before you may be confused as to why you should use them.
+If you have never seen defer statements before, you may be confused as to why you should use them.
 Defer statements are very useful for managing memory.
 
 If we make a dynamic array then it must be freed, or we will leak memory. 
@@ -50,4 +50,4 @@ main :: proc() {
 }
 ```
 
-> The mental toll of when or where to clean up memory starts to fade.
+> The mental toll of when or where to clean up memory starts to fade after using defer.

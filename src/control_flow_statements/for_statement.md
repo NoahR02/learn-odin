@@ -1,6 +1,6 @@
 # `For` Statement
 
-The for statement, also called the for loop is, useful for executing some block of code a specified amount of times based upon some condition.
+The for statement, also called the for loop, is useful for executing some block of code a specified amount of times based upon some condition.
 
 A basic for loop has 2 statements and one conditional which are separated by semicolons:
 - The initial statement: This is executed before the first iteration.
@@ -69,9 +69,9 @@ for i := 0; i < 20; i += 1 {
 
 The ranged based for loop iterates over a collection of values from some starting range to some ending range.
 The variables you iterate over are copies of the original variable. 
-To access the variable directly you must be explicit and access it by reference(see below).
+To access the variable directly, you must be explicit and access it by reference (see below).
 
-Here is the general syntax for the ranged `for` loop.
+Here is the general syntax for the ranged `for` loop:
 ```cpp
 for some_value, optional_index in some_collection {
 }
@@ -95,7 +95,7 @@ for _, i in arr {
 }
 ```
 > Note: Ranges in Odin range from inclusive to inclusive.
-> To make the end range exclusive we put a **<** before the end range.
+> To make the end range exclusive, we put a **<** before the end range.
 ```cpp
 for val in 1..10 {
     // Prints 1-10
