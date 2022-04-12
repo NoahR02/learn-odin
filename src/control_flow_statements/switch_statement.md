@@ -1,4 +1,4 @@
-# Switch Statement
+# `Switch` Statement
 
 *Switch* statements are very similar to the if statement. 
 Switch statements execute some block of code if some value matches another value.
@@ -39,7 +39,7 @@ switch grade {
 
 Unlike most programming languages Odin, *breaks* by default. 
 If it matches a value, then the other cases will not be considered.
-We can override the default behavior with *fallthrough*. Fallthrough *has* to be the last piece of code.
+We can override the default behavior with the *fallthrough* statement. Fallthrough *has* to be the last piece of code.
 
 ```cpp
 grade = 'C'
@@ -56,7 +56,7 @@ switch grade {
 ```
 
 This will now print "Ok job!" and "Good try!". 
-We can also use the break keyword to *break* from a case instead of falling through.
+We can also use the break statement to *break* from a case instead of falling through.
 
 ## Partial Switch Statements for Enums and Unions
 Partial switch statements cover a partial amount of cases. 

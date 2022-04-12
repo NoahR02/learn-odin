@@ -1,6 +1,7 @@
 # Control Flow Statements
 
 Control flow statements execute some block of code depending on some condition.
+Control flow statements, as the name implies, control the flow of the code being executed.
 
 For example, we can translate the paragraph below into some pseudocode:
 

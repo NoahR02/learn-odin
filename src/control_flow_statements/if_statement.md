@@ -1,4 +1,4 @@
-# If Statement
+# `If` Statement
 
 The *if* statement is used when you want to execute some block of code when some condition is true.
 
