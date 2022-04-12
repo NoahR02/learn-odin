@@ -49,5 +49,3 @@ main :: proc() {
     append(&numbers, 4, 5)
 }
 ```
-
-> The mental toll of when or where to clean up memory starts to fade after using defer.
