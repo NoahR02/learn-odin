@@ -15,9 +15,8 @@ To make the array above do the following:
 2. Inside the brackets put the size.
 3. Set the array equal to curly braces, then write the specified values inside.
 
-```shell
-Note: The number of values placed inside the curly braces must be the maximum number of items the array can hold.
-```
+> Note: The number of values placed inside the curly braces must be the maximum number of items the array can hold.
+
 If you did this all correctly then you should have the following:
 ```cpp
 my_array: [4]int = {120, 98, 2097, 5}

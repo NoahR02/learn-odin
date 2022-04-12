@@ -5,9 +5,9 @@ Enumerations store one value out of a set of possible values. Enums values can r
 They are useful for storing things such as months, options, etc. that can only take on certain values.
 
 Similar to defining a struct we can define a Colors enum like so:
-```shell
-Note that you can leave out the type after enum and it will default to int.
-```
+
+> Note that you can leave out the type after enum and it will default to int.
+
 ```cpp
 Colors :: enum int {
 }

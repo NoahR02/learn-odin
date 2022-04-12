@@ -18,9 +18,7 @@ Player :: struct {
 }
 ```
 
-```shell
-Note: Default values are not allowed inside structs.
-```
+> Note: Default values are not allowed inside structs.
 
 Inside main, we can now create an instance of Player.
 ```cpp
@@ -38,4 +36,4 @@ player: Player = {
 }
 ```
 
-In Chapter 3 we will look at how we can create procedures to perform operations on our data.
+In [Chapter 5](/procedures/start.html) we will look at how we can create procedures to perform operations on our data.
