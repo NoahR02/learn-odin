@@ -5,6 +5,7 @@
 - [Installation](installation/installation.md)
   - [Linux](installation/linux.md)
   - [Windows](installation/windows.md)
+  - [Odin Language Server](installation/ols.md)
 
 - [Hello World](hello_world/start.md)
   - [Packages](hello_world/packages.md)
