@@ -49,7 +49,7 @@ Currently, [`ols`](https://github.com/DanielGavin/ols) supports:
 ![](/images/installation/ols_settings.png)
 3. Click `Extension Settings`.
 4. Click `Edit in settings.json`.
-5. Set `ols.server.path` equal to the path of the executable.
+5. Set `ols.server.path` equal to the path of the `ols` executable.
 
 6. This is what my file looks like:
 ![](/images/installation/ols_config_file.png)
