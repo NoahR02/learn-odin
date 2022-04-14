@@ -21,7 +21,7 @@ The following are the same as above but are just unsigned integers.
 uint
 ```
 ```cpp
-ui8 u16 u32 u64 u128
+u8 u16 u32 u64 u128
 ```
 
 ### Floating Point Numbers

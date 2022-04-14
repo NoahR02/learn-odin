@@ -1,6 +1,6 @@
 # Packages
 Before we start writing code, we have to talk about packages in Odin. A Package is a folder with odin files.
-We will expand on this later when we get to more advance programs.
+We will expand on this later when we get to more advanced programs.
 
 Ok enough said! Let's make a package for our *Hello World* program.
 1. Make a new folder with the name of your package. I'll be going with hello_world!

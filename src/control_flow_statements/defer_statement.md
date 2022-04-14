@@ -24,7 +24,7 @@ main :: proc() {
 
 This prints out: 
 ``
-"Hello", "?", "Hi", 3, 2, 1
+"Hi", "Hello", "?", 3, 2, 1
 ``
 
 > Note: Notice how we can defer a block of code.

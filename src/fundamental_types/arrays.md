@@ -52,7 +52,7 @@ The heap is an area of memory in RAM that is of a dynamic length that must be ma
 If we put something on the heap, we must remove it. Failing to clean up memory is a typical bug known as a "memory leak".
 
 ```cpp
-delete(&my_array)
+delete(my_array)
 ```
 
 Use the make function to specify the capacity and reserve of the dynamic array. The capacity and reserve are default parameters and may be omitted.
@@ -66,5 +66,5 @@ append_elems(&my_array, 120, 98, 2097, 5)
 ```
 If you haven't already, free the memory.
 ```cpp
-delete(&my_array)
+delete(my_array)
 ```
