@@ -20,6 +20,7 @@ Currently, [`ols`](https://github.com/DanielGavin/ols) supports:
 ## Installation
 1. Download and extract the latest [release](https://github.com/DanielGavin/ols/releases) for *your* Operating System.
 2. Rename the folder to ols and cd into it.
+3. Rename the executable inside the ols folder to `ols`.
 
 ### (LINUX ONLY) Add it to your PATH
 1. Add **ols** to your path, so you can use it anywhere. Make sure you are in the **ols** directory.
@@ -43,8 +44,15 @@ Currently, [`ols`](https://github.com/DanielGavin/ols) supports:
 ## IDE Setup
 #### [Visual Studio Code](https://code.visualstudio.com/)
 
-1. Download the [VsCode ols](https://marketplace.visualstudio.com/items?itemName=DanielGavin.ols]) extension.
+1. Download the [VsCode ols](https://marketplace.visualstudio.com/items?itemName=DanielGavin.ols) extension.
+2. Click the `settings icon`.
+![](/images/installation/ols_settings.png)
+3. Click `Extension Settings`.
+4. Click `Edit in settings.json`.
+5. Set `ols.server.path` equal to the path of the executable.
 
+6. This is what my file looks like:
+![](/images/installation/ols_config_file.png)
 #### [Sublime Text](https://www.sublimetext.com/)
 1. Open up the `command palette with (ctrl-shift-p)` and run `Package Control: Install Package`, next select ``LSP``.
 2. Open up the `command palette with (ctrl-shift-p)` and run `Package Control: Install Package`, next select ``Odin``.
